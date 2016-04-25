@@ -1,7 +1,7 @@
 //Inicializacion
 var express = require('express');
 var app = express(); // Utilizamos express
-var port = process.env.PORT || 8080; // Cogemos el puerto 8080
+var port = process.env.PORT || 80; // Cogemos el puerto 8080
 
 // Localizacion de los ficheros estaticos
 app.use(express.static(__dirname + '/public'));
